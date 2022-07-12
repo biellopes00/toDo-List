@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.resume{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.createdTask{
+    color: var(--blue);
+}
+.finishedTask{
+    color: var(--purple);
+}
+.taskInfo{
+    background: var(--gray-600);
+    width: 50%;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.trash{
+    align-items: flex-end;
+    justify-content: flex-end;
+    size: 24px;
+}
