@@ -1,0 +1,64 @@
+.task{
+    display: flex;
+    padding-bottom: -5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+    
+}
+
+.task textarea{
+    background: var(--gray-500);
+    height: 3.375rem;
+    width: 39.875rem;
+    border-radius: 8px;
+    border: none;
+    padding: 1rem;
+    color: var(--gray-300);
+    resize: none;
+}
+
+.task button{
+    background: var(--blue-dark);
+    height: 3.25rem;
+    width: 5.625rem;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    border: none;
+    color: var(--gray-100);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task button p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 0.5rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resume{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 8rem;
+}
+.createdTask{
+    color: var(--blue);
+}
+.finishedTask{
+    color: var(--purple);
+}
+.resume + .resume {
+    margin-top: 1rem;
+}

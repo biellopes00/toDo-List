@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.resume{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.createdTask{
+    color: var(--blue);
+}
+.finishedTask{
+    color: var(--purple);
+}
+.taskInfo{
+    background: var(--gray-500);
+    width: 50%;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.taskInfo > div {
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.content + .content {
+    margin-top: -2.5rem;
+}
+
